@@ -1,0 +1,24 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer                                                                         0x0260       8
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+temp                                                                              R4,R5        2
+rx_wr_index                                                                       R7           1
+rx_rd_index                                                                       R6           1
+rx_counter                                                                        R9           1
+rx_buffer_overflow                                                                R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x0006A     15
+usart_rx_isr                                                                      0x00079    102
+main                                                                              0x000DF     33

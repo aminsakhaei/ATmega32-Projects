@@ -1,0 +1,13 @@
+VERSION:3 SOURCE_TIMESTAMP:52ED9B7B
+NODE:I LEVEL:0 LINE:2 "E:\Program Files\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:3 "E:\Program Files\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:5 "seg -> RAM:????"
+NODE:V LEVEL:0 LINE:6 "key -> R4,R5"
+NODE:V LEVEL:0 LINE:6 "sec -> R6,R7"
+NODE:V LEVEL:0 LINE:6 "count -> R8,R9"
+NODE:V LEVEL:0 LINE:7 "t -> R10,R11"
+NODE:V LEVEL:0 LINE:7 "TM -> R12,R13"
+NODE:F LEVEL:0 LINE:9 "get_key(void)"
+NODE:F LEVEL:0 LINE:69 "set_time(void)"
+NODE:F LEVEL:0 LINE:100 "timer1_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:122 "main(void)"

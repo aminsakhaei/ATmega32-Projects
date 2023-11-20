@@ -1,0 +1,25 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+v                                                                                 0x0260       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+dot                                                                               R5           1
+a                                                                                 R6,R7        2
+adc_data                                                                          R8,R9        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_ovf_isr                                                                    0x0005C      5
+adc_isr                                                                           0x00061      3
+read_adc                                                                          0x00064      9
+lcd_setup                                                                         0x0006F     13
+lcd_data                                                                          0x0007C      9
+main                                                                              0x00085     99

@@ -1,0 +1,25 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+seg                                                                               0x0260      10
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+key                                                                               R4,R5        2
+sec                                                                               R6,R7        2
+count                                                                             R8,R9        2
+t                                                                                 R10,R11      2
+TM                                                                                R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+get_key                                                                           0x00067     95
+set_time                                                                          0x000C6     40
+timer1_ovf_isr                                                                    0x000EE     68
+main                                                                              0x00132     43
